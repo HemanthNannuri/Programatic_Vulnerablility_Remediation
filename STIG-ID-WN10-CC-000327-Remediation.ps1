@@ -1,28 +1,4 @@
-<#
-.SYNOPSIS
-    This PowerShell script ensures that PowerShell Transcription must be enabled on Windows 10. Maintaining an audit trail of system activity logs can help identify configuration errors, troubleshoot service disruptions, and analyze compromises that have occurred, as well as detect attacks. Audit logs are necessary to provide a trail of evidence in case the system or network is compromised. Collecting this data is essential for analyzing the security of information assets and detecting signs of suspicious and unexpected behavior. Enabling PowerShell Transcription will record detailed information from the processing of PowerShell commands and scripts. This can provide additional detail when malware has run on a system.
-.NOTES
-    Author          : Carlton Hurd
-    LinkedIn        : linkedin.com/in/carlton-hurd-6069a5120/
-    GitHub          : github.com/churd-git
-    Date Created    : 2025-01-14
-    Last Modified   : 2025-01-14
-    Version         : 1.0
-    CVEs            : N/A
-    Plugin IDs      : N/A
-    STIG-ID         : WN10-CC-000327
 
-.TESTED ON
-    Date(s) Tested  : 2025-01-14
-    Tested By       : Carlton Hurd
-    Systems Tested  : 
-    PowerShell Ver. : 
-
-.USAGE
-    Please download the script and execute as administrator. 
-    Example syntax:
-    PS C:\> .\STIG-ID-WN10-CC-000327-Remediation.ps1
-#>
 
 # -----------------------------
 # Configuration Parameters
