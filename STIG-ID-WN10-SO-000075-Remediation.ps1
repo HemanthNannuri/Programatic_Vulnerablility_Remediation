@@ -1,29 +1,3 @@
-<#
-.SYNOPSIS
-    This PowerShell script ensures that the required legal notice must be configured to display before console logon. Failure to display the logon banner prior to a logon attempt will negate legal proceedings resulting from unauthorized access to system resources.
-
-.NOTES
-    Author          : Carlton Hurd
-    LinkedIn        : linkedin.com/in/carlton-hurd-6069a5120/
-    GitHub          : github.com/churd-git
-    Date Created    : 2025-01-13
-    Last Modified   : 2025-01-13
-    Version         : 1.0
-    CVEs            : N/A
-    Plugin IDs      : N/A
-    STIG-ID         : WN10-SO-000075
-
-.TESTED ON
-    Date(s) Tested  : 2025-01-013
-    Tested By       : Carlton Hurd
-    Systems Tested  : 
-    PowerShell Ver. : 
-
-.USAGE
-    Please download the script and execute as administrator.
-    Example syntax:
-    PS C:\> .\STIG-ID-WN10-SO-000075-Remediation.ps1 
-#>
 
 # -----------------------------
 # Function Definitions
