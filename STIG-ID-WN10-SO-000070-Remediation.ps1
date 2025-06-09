@@ -1,28 +1,4 @@
-<#
-.SYNOPSIS
-    This PowerShell script ensures that the machine inactivity limit must be set to 15 minutes, locking the system with the screensaver. Unattended systems are susceptible to unauthorized use and should be locked when unattended. The screen saver should be set at a maximum of 15 minutes and be password protected. This protects critical and sensitive data from exposure to unauthorized personnel with physical access to the computer.
-.NOTES
-    Author          : Carlton Hurd
-    LinkedIn        : linkedin.com/in/carlton-hurd-6069a5120/
-    GitHub          : github.com/churd-git
-    Date Created    : 2025-01-14
-    Last Modified   : 2025-01-14
-    Version         : 1.0
-    CVEs            : N/A
-    Plugin IDs      : N/A
-    STIG-ID         : WN10-SO-000070
 
-.TESTED ON
-    Date(s) Tested  : 2025-01-14
-    Tested By       : Carlton Hurd
-    Systems Tested  : 
-    PowerShell Ver. : 
-
-.USAGE
-    Please download the script and execute as administrator. 
-    Example syntax:
-    PS C:\> .\STIG-ID-WN10-SO-000070-Remediation.ps1
-#>
 
 # Enable verbose output
 $VerbosePreference = "Continue"
