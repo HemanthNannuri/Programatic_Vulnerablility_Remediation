@@ -1,28 +1,4 @@
-<#
-.SYNOPSIS
-    This PowerShell script ensures that The built-in guest account must be renamed. The built-in guest account is a well-known user account on all Windows systems and, as initially installed, does not require a password. This can allow access to system resources by unauthorized users. Renaming this account to an unidentified name improves the protection of this account and the system.
-.NOTES
-    Author          : Carlton Hurd
-    LinkedIn        : linkedin.com/in/carlton-hurd-6069a5120/
-    GitHub          : github.com/churd-git
-    Date Created    : 2025-01-14
-    Last Modified   : 2025-01-14
-    Version         : 1.0
-    CVEs            : N/A
-    Plugin IDs      : N/A
-    STIG-ID         : WN10-SO-000025
 
-.TESTED ON
-    Date(s) Tested  : 2025-01-14
-    Tested By       : Carlton Hurd
-    Systems Tested  : 
-    PowerShell Ver. : 
-
-.USAGE
-    Please download the script and execute as administrator. 
-    Example syntax:
-    PS C:\> .\STIG-ID-WN10-SO-000025-Remediation.ps1
-#>
 
 # Enable verbose output
 $VerbosePreference = "Continue"
