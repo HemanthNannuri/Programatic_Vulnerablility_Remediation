@@ -1,28 +1,4 @@
-<#
-.SYNOPSIS
-    This PowerShell script ensures that the server message block (SMB) protocol provides the basis for many network operations. Digitally signed SMB packets aid in preventing man-in-the-middle attacks. If this policy is enabled, the SMB client will only communicate with an SMB server that performs SMB packet signing.
-.NOTES
-    Author          : Carlton Hurd
-    LinkedIn        : linkedin.com/in/carlton-hurd-6069a5120/
-    GitHub          : github.com/churd-git
-    Date Created    : 2025-01-11
-    Last Modified   : 2025-01-11
-    Version         : 1.0
-    CVEs            : N/A
-    Plugin IDs      : N/A
-    STIG-ID         : WN10-SO-000100
 
-.TESTED ON
-    Date(s) Tested  : 2025-01-011
-    Tested By       : Carlton Hurd
-    Systems Tested  : 
-    PowerShell Ver. : 
-
-.USAGE
-    Please download the script and execute as administrator.
-    Example syntax:
-    PS C:\> .\STIG-ID-WN10-SO-000100-Remediation.ps1 
-#>
 
 Write-Host "=== Enforcing SMB client to always perform SMB signing (STIG WN10-SO-000100) ===`n"
 
